@@ -1,6 +1,8 @@
 # Robotics-Particle-Filter-Pose-Tracking
 Implementation of a particle filter for pose tracking in 2D space.
 
+This is part of the Robotics Specialization by the University of Pennsylvania on Coursera.
+
 This forms the core part of SLAM together with mapping. 
 
 the core idea of particle filtering is Random sampling and resampling. Since we don't know where the target is, particles are scattered randomly or under a Gaussian distribution. After scattering the particles, the importance of each particle is calculated based on the similarity of the characteristics, and then more particles are scattered in highly favorable places and fewer in other areas. 
