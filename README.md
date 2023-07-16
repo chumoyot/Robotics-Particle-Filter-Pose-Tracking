@@ -11,4 +11,9 @@ So for each LIDAR measurement, the correlation score of every particle is comput
 
 The function returns the entire path of the robot, in a 3 by n matrix. **x** is the number of iterations, and the rows represent the **x, y** coordinates of the robot and **theta**, the angular component.
 
+Here is the final output showing the robot's path in red. 
+
+![robot path in red](https://github.com/chumoyot/Robotics-Particle-Filter-Pose-Tracking/assets/135506318/9bb693ee-c38e-4818-86fc-3bedc7b5213e)
+
+
 
